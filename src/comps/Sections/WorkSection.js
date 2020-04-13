@@ -10,7 +10,7 @@ function WorkSection(props){
         <Section title={info.title[props.lang]} icon={<Work />}>
             {info.data.map( (el,idx) => {
                 return (
-                    <div className={classes.job}>
+                    <div key={idx} className={classes.job}>
                         <Typography variant="h6">
                             <Code className={classes.vAlign} /> <span className={classes.vAlign}>{el.position[props.lang]}</span>
                         </Typography>

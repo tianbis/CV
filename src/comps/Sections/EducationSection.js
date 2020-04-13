@@ -10,7 +10,7 @@ function EducationSection(props){
         <Section title={info.title[props.lang]} icon={<School />}>
             {info.data.map( (el,idx) => {
                 return (
-                    <div className={classes.job}>
+                    <div key={idx} className={classes.job}>
                         <Typography variant="h6">
                             <ChevronRight className={classes.vAlign} /> <span className={classes.vAlign}>{el.area[props.lang]}, {el.studyType[props.lang]}</span>
                         </Typography>
