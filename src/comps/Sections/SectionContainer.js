@@ -6,6 +6,7 @@ import WorkSection from './WorkSection';
 import EducationSection from './EducationSection';
 import AboutSection from './AboutSection';
 import VolunteerSection from './VolunteerSection';
+import SkillsSection from './SkillsSection';
 
 function SectionContainer(props){
     const resume = props.resume;
@@ -18,6 +19,7 @@ function SectionContainer(props){
                 <WorkSection lang={lang} info={resume.work} />
                 <EducationSection lang={lang} info={resume.education} />
                 <VolunteerSection lang={lang} info={resume.volunteer} />
+                <SkillsSection lang={lang} info={resume.skills} />
             </Grid>
 
         </Container>

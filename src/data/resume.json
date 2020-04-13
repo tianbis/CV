@@ -232,10 +232,6 @@
                             "icon":"less"
                     },
                     {
-                        "tag":"MaterializeCSS",
-                        "icon":""
-                    },
-                    {
                         "tag":"Bootstrap",
                         "icon":"bootstrap"
                     }
@@ -263,7 +259,7 @@
                     "es_AR":"Bases de Datos",
                     "en_US":"DataBases"
                 },
-                "descripcion": "",
+                "description": "",
                 "level":"Advanced",
                 "keywords":[
                     {
