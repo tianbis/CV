@@ -13,7 +13,6 @@ function Profile(props){
         <div className={`${classes.profile} ${classes.height}`}>
             <ProfilePic imgSrc={props.info.picture}></ProfilePic>
             <BasicInfo lang={props.lang} info={props.info}></BasicInfo>
-            <button onClick={ () => {props.switchTheme()}}></button>
         </div>
     )
 }
@@ -23,19 +22,13 @@ const useStyles = makeStyles({
         height: props.height ? props.height : 'auto'
     }),
     profile: props => ({
-        paddingTop: 25,
         display:'flex',
         flexFlow:'column',
         alignItems: 'center',
-        background: `linear-gradient(90deg,${props.palette.primary.dark}  0%, ${props.palette.background.default} 100%)` 
+        backgroundColor: props.palette.primary.light,
     })
 })
 
-const mapDispatchToProps = (dispatch) => {
-    return {
-        switchTheme: () => {dispatch({type:'SWITCH_THEME'})},
-    }
-}
 const mapStateToProps = (state) => {
     return {
         info: {...state.resume.basics,languages:state.resume.languages.data},
@@ -43,6 +36,5 @@ const mapStateToProps = (state) => {
     }
 }
 export default connect(
-    mapStateToProps,
-    mapDispatchToProps
+    mapStateToProps
 )(Profile);

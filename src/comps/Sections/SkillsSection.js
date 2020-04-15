@@ -37,6 +37,7 @@ function Tag(props){
                     <i className={icon}></i>
                 </Avatar>
             } 
+            color="secondary"
             label={props.tag}
             style={{margin: 3}}
         />
@@ -45,7 +46,8 @@ function Tag(props){
 
 const useStyles = makeStyles({
     skill: props => ({
-        padding: '.75em',
+        margin: '.75em 0',
+        padding: '0 .75em',
         borderLeft: `5px solid ${props.palette.primary.main}`
     }),
     tagContainer:{

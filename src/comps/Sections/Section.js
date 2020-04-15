@@ -7,7 +7,7 @@ function Section(props){
         <div className={classes.section}>
             <Grid item xs={12}>
                 <Typography className={classes.title} variant="h5">
-                    <span className={classes.icon}>{props.icon}</span>
+                    <Typography color="textSecondary" className={classes.icon}>{props.icon}</Typography>
                     <span>{props.title}</span>
                 </Typography>
                 <Divider />
