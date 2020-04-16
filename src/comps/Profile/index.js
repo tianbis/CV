@@ -4,6 +4,7 @@ import {connect} from 'react-redux'
 import { makeStyles, useTheme } from '@material-ui/core';
 import ProfilePic from './ProfilePic';
 import BasicInfo from './BasicInfo';
+import SocialLinks from './SocialLinks';
 
 function Profile(props){
     const theme = useTheme()
@@ -12,6 +13,7 @@ function Profile(props){
     return (
         <div className={`${classes.profile} ${classes.height}`}>
             <ProfilePic imgSrc={props.info.picture}></ProfilePic>
+            <SocialLinks info={props.info.profiles} />
             <BasicInfo lang={props.lang} info={props.info}></BasicInfo>
         </div>
     )
