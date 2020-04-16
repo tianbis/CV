@@ -2,8 +2,8 @@
     "basics": {
         "name"    : "Sebastián Biscussi",
         "label"   : {
-            "es_AR": "Desarrollador Web",
-            "en_US": "Web Developer"
+            "es_AR": "Desarrollador Full Stack",
+            "en_US": "Full Stack developer"
         },
         "picture" : "https://www.gravatar.com/avatar/64a07d15d6b341955bf34c832c3f75ec?s=300",
         "email"   : "sebastian.csb@gmail.com",
@@ -15,8 +15,8 @@
                 "en_US":"About Me"
             },
             "data":{
-                "es_AR":"Soy un Desarrollador Web, siempre dispuesto a aprender metodologías y tecnologías nuevas. Disfruto trabajar en aplicaciones web y móviles, aprendiendo cada día un poco más.",
-                "en_US":"I'm a Web Developer, always eager to learn new technologies and methodologies. I enjoy working on web and mobile applications, and learning every day a bit more."
+                "es_AR":"Soy un Licenciado en Ciencias de la Computación, trabajando como Desarrollador Full Stack. Siempre dispuesto a aprender y trabajar con metodologías y tecnologías nuevas. Disfruto trabajar en aplicaciones web y móviles, aprendiendo cada día un poco más.",
+                "en_US":"I'm a Bachelor of Computer Science, currently working as Full Stack Developer, always eager to learn and work on new technologies and methodologies. I enjoy working on web and mobile applications, learning every day a bit more."
             }
         },
         "location": {
@@ -24,12 +24,19 @@
             "countryCode": "Argentina",
             "region"     : "Buenos Aires"
         },
-        "profiles": [{
-            "network" : "Linkedin",
-            "username": "sebastianbiscussi",
-            "url"     : "https://www.linkedin.com/in/"
-            }]
-        },
+        "profiles": [
+            {
+                "network" : "Linkedin",
+                "username": "sebastianbiscussi",
+                "url"     : "https://www.linkedin.com/in/"
+            },
+            {
+                "network" : "GitHub",
+                "username": "tianbis",
+                "url"     : "https://www.github.com/in/"
+            }
+        ]
+    },
     "work": {
         "title":{
             "es_AR":"Experiencia Laboral",
@@ -53,7 +60,7 @@
                 },
                 "summary"   : {
                     "es_AR":"Desarrollos de variados sitios, mantenimiento de sitios existentes y soporte técnico a clientes  y personal de la empresa.",
-                    "en_US": "websites Development, maintenance of existing websites and technical support to clients and company personnel."
+                    "en_US": "websites Development, maintenance of existing websites and technical support for clients and company personnel."
                 },
                 "highlights": [
 
@@ -174,7 +181,7 @@
                 },
                 "description":{
                     "es_AR":"Tecnologías relacionadas al desarrollo web",
-                    "en_US":"Technologies related to Web Development"
+                    "en_US":"Web Development Technologies"
                 },
                 "level"   : "Advanced/Intermediate",
                 "keywords": [
@@ -211,7 +218,7 @@
                 },
                 "description": {
                     "es_AR":"tecnologías relacionadas al diseño web",
-                    "en_US":"Technologies related to Web Design"
+                    "en_US":"Web Design Technologies "
                 },
                 "level" : "Advanced",
                 "keywords":[
@@ -228,8 +235,8 @@
                         "icon":"sass"
                     },
                     {
-                            "tag":"LESS",
-                            "icon":"less"
+                        "tag":"LESS",
+                        "icon":"less"
                     },
                     {
                         "tag":"Bootstrap",
@@ -259,7 +266,10 @@
                     "es_AR":"Bases de Datos",
                     "en_US":"DataBases"
                 },
-                "description": "",
+                "description": {
+                    "es_AR": "Motores de bases de datos",
+                    "en_US": "DataBase Engines"
+                },
                 "level":"Advanced",
                 "keywords":[
                     {
