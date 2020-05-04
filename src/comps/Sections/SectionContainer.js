@@ -7,9 +7,10 @@ import EducationSection from './EducationSection';
 import AboutSection from './AboutSection';
 import VolunteerSection from './VolunteerSection';
 import SkillsSection from './SkillsSection';
+import ExtraSection from './ExtraSection';
 
 function SectionContainer(props){
-    const resume = props.resume;
+    const resume = props.resume
     const lang = props.lang
     const classes = useStyles(props)
     return (
@@ -20,6 +21,7 @@ function SectionContainer(props){
                 <EducationSection lang={lang} info={resume.education} />
                 <VolunteerSection lang={lang} info={resume.volunteer} />
                 <SkillsSection lang={lang} info={resume.skills} />
+                <ExtraSection lang={lang} theme={props.theme} />
             </Grid>
 
         </Container>
@@ -35,7 +37,8 @@ const useStyles = makeStyles({
 const mapStateToProps = state => {
     return {
         resume: state.resume,
-        lang: state.lang
+        lang: state.lang,
+        theme: state.theme
     }
 }
 export default connect(mapStateToProps)(SectionContainer)

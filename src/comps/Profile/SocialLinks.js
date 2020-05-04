@@ -4,8 +4,6 @@ import { Link, makeStyles } from "@material-ui/core";
 
 function SocialLinks(props){
     const classes = useStyles()
-    console.log(props);
-    
     const profiles = props.info
     return (
         <div className={classes.links}>
