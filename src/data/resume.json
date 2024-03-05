@@ -88,6 +88,55 @@
                 "highlights": [
 
                 ]
+            },
+            {
+                "company"   : "Jefatura de Gabinete de Ministros - Presidencia de la Nación",
+                "position"  : {
+                    "es_AR":"Desarrollador Frontend",
+                    "en_US":"Frontend Developer"
+                },
+                "website"   : "https://www.argentina.gob.ar/jefatura",
+                "startDate" : {
+                    "es_AR":"Oct, 2020",
+                    "en_US":"Oct, 2020"
+                },
+                "endDate"   : {
+                    "es_AR": "Mayo 2021",
+                    "en_US": "May 2021"
+                },
+                "summary"   : {
+                    "es_AR":"Desarrollo del frontend de un prototipo de sistemas de concurso, utilizando React+Redux. También colaboré en mejoras sobre la API (Java)",
+                    "en_US":"Frontend development of a prototype system for job applications. Also collaborated on API improvements (Java)."
+                },
+                "highlights": [
+
+                ]
+            },
+            {
+                "company"   : "Spark Digital / Intive",
+                "position"  : {
+                    "es_AR":"Desarrollador Frontend",
+                    "en_US":"Frontend Developer"
+                },
+                "website"   : "https://intive.com/",
+                "startDate" : {
+                    "es_AR":"Mayo, 2021",
+                    "en_US":"May, 2021"
+                },
+                "endDate"   : {
+                    "es_AR": "Actualidad",
+                    "en_US": "Present"
+                },
+                "summary"   : {
+                    "es_AR":"Desarrollos frontend utilizando React, Next.js y frameworks in-house basados en estas mismas tecnologías. Optimizaciones SEO, CLS e INP. Migración de sistemas de frontend a nuevos frameworks en Next.js.",
+                    "en_US":"Frontend Development working with React, Next.js and in-house frameworks based in these techs. SEO, CLS and INP optimizations. Frontend system migrations to new Next.js based frameworks."
+                },
+                "highlights": [
+                    {
+                        "es_AR":"Trabajo mano a mano con el equipo norteamericano de Barrons (Dow Jones), unos de los clientes de la empresa",
+                        "en_US":"Working hand in hand with the american dev team from Barrons (Dow Jones), one of the company's clients"
+                    }
+                ]
             }
         ]
     },
