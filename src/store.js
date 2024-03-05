@@ -1,4 +1,4 @@
-import { createStore,applyMiddleware } from 'redux'
+import { createStore } from 'redux'
 import Resume from './data/resume.json'
 import { composeWithDevTools } from 'redux-devtools-extension'
 

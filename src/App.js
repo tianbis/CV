@@ -18,7 +18,7 @@ function App(props) {
 		palette: {
 			type: 'dark',
 			primary:{
-				main: "#00695c"
+				main: "#2a6969",
 			},
 			secondary:{
 				main: "#62757f"

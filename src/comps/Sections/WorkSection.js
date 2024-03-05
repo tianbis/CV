@@ -1,26 +1,27 @@
 import React from 'react';
 import Section from './Section';
 import {Work, Code} from '@material-ui/icons';
-import { Typography, Link, makeStyles } from '@material-ui/core';
+import { Typography, Link, makeStyles, useTheme } from '@material-ui/core';
 
-function WorkSection(props){
-    const classes = useStyles();
-    const info = props.info;
+function WorkSection({ info, lang }){
+    const theme = useTheme()
+    const data = info.data.sort((a, b) => a.startDate.date < b.startDate.date)
+    const classes = useStyles({palette: theme.palette})
     return (
-        <Section title={info.title[props.lang]} icon={<Work />}>
-            {info.data.map( (el,idx) => {
+        <Section title={info.title[lang]} icon={<Work />}>
+            {data.map( (el,idx) => {
                 return (
                     <div key={idx} className={classes.job}>
                         <Typography variant="h6">
-                            <Code className={classes.vAlign} /> <span className={classes.vAlign}>{el.position[props.lang]}</span>
+                            <Code className={classes.vAlign} /> <span className={classes.vAlign}>{el.position[lang]}</span>
                         </Typography>
                         <div style={{paddingLeft:30}}>
-                            <Link href={el.website} variant="subtitle2" > {el.company} </Link>
+                            <Link className={classes.company} href={el.website} variant="subtitle2" > {el.company} </Link>
                             <Typography variant="caption" component="div" color="textSecondary" className={classes.miniCaption}>  
-                                {el.startDate[props.lang]} - {el.endDate[props.lang]}
+                                {el.startDate[lang]} - {el.endDate[lang]}
                             </Typography>
                             <Typography variant="body2"> 
-                                {el.summary[props.lang]} 
+                                {el.summary[lang]} 
                             </Typography>
                         </div>
                     </div>
@@ -34,6 +35,10 @@ const useStyles = makeStyles({
     job: {
         marginBottom: 20
     },
+    company: props => ({
+        color: props.palette.primary.contrastText,
+        textDecoration: 'underline'
+    }),
     vAlign:{
         lineHeight: 1,
         verticalAlign:'middle'

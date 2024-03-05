@@ -1,13 +1,11 @@
 import React from 'react';
 
-import {useDispatch, useSelector} from 'react-redux'
+import {useDispatch} from 'react-redux'
 import {AppBar,Toolbar, IconButton, makeStyles,Typography } from '@material-ui/core';
 import { InvertColors, Language } from '@material-ui/icons';
 
 function Header(){
     const  dispatch = useDispatch()
-    // const stateLang = useSelector(state => state.lang)
-    // const theme = useSelector(state => state.theme)
 
     const classes = useStyles();
     

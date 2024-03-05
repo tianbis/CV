@@ -51,10 +51,12 @@
                 },
                 "website"   : "http://hernandezyasociados.com.ar",
                 "startDate" : {
+                    "date": "2013-04",
                     "es_AR":"Abr, 2013",
                     "en_US":"Apr, 2013"
                 },
                 "endDate"   : {
+                    "date": "2015-08",
                     "es_AR":"Ago, 2015",
                     "en_US":"Aug, 2015"
                 },
@@ -74,12 +76,14 @@
                 },
                 "website"   : "http://www.cooperativaobrera.coop",
                 "startDate" : {
+                    "date": "2015-05",
                     "es_AR":"Mayo, 2015",
                     "en_US":"May, 2015"
                 },
                 "endDate"   : {
-                    "es_AR": "Actualidad",
-                    "en_US": "Present"
+                    "date": "2020-10",
+                    "es_AR": "Oct. 2020",
+                    "en_US": "Oct. 2020"
                 },
                 "summary"   : {
                     "es_AR":"Desarrollos logísticos con tecnologías web frontend/backend y bases de datos, orientado a la optimización de consultas.",
@@ -97,10 +101,12 @@
                 },
                 "website"   : "https://www.argentina.gob.ar/jefatura",
                 "startDate" : {
+                    "date": "2020-10",
                     "es_AR":"Oct, 2020",
                     "en_US":"Oct, 2020"
                 },
                 "endDate"   : {
+                    "date": "2021-05",
                     "es_AR": "Mayo 2021",
                     "en_US": "May 2021"
                 },
@@ -120,10 +126,12 @@
                 },
                 "website"   : "https://intive.com/",
                 "startDate" : {
+                    "date": "2021-05",
                     "es_AR":"Mayo, 2021",
                     "en_US":"May, 2021"
                 },
                 "endDate"   : {
+                    "date": "2024-03",
                     "es_AR": "Actualidad",
                     "en_US": "Present"
                 },

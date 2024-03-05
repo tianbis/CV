@@ -1,7 +1,7 @@
 import React,{useEffect} from 'react'
 import { makeStyles } from '@material-ui/core'
 import Section from './Section'
-import { Stars, LinkedIn } from '@material-ui/icons'
+import { Stars } from '@material-ui/icons'
 
 const SOFlair = (props) => {
     const link = `http://stackoverflow.com/users/flair/5796253.png?theme=${props.theme}`
@@ -52,15 +52,14 @@ const LinkedInBadge = (props) => {
 
     return (
         <div 
-            class="LI-profile-badge"  
+            class="badge-base LI-profile-badge"  
             data-version="v1" 
             data-size="small" 
             data-locale={props.lang}
-            data-type="horizontal" 
+            data-type="VERTICAL" 
             data-theme={props.theme} 
             data-vanity="sebastianbiscussi"
         >
-            <a class="LI-simple-link" href='https://ar.linkedin.com/in/sebastianbiscussi?trk=profile-badge'>Sebastian Biscussi</a>
         </div>
     )
 }
